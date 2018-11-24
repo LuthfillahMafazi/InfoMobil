@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#4e4e4e">
+
+    <ImageView
+        android:id="@+id/imgMobil"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bugatti_chiron"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtMobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:gravity="center"
+        android:text="BUGATTI CHIRON"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnDetail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="DETAIL"
+        android:layout_marginRight="13dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>

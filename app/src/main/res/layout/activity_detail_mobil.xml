@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMobil"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgDetailMobil"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/bugatti_chiron"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtNamaMobil"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUGATTI CHIRON"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDetailMobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textColor="#000000"
+            android:text="aku yang dulu bukannlah yang sekarang dulu di tendang sekarang ku disayang
+dulu dulu dulu ku menderita sekarang aku bahagia"/>
+    </LinearLayout>
+
+</ScrollView>
